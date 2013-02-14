@@ -1,0 +1,19 @@
+{
+    "name": "igorw/fab-symfony-console",
+    "description": "Make symfony console output FABULOUS!",
+    "keywords": ["fab", "console"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Wiedler",
+            "email": "igor@wiedler.ch"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.1",
+        "whatthejeff/fab": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": { "Igorw\\Fab": "src" }
+    }
+}
